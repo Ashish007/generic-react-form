@@ -1,0 +1,14 @@
+.container{
+    background-color: white;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+input{display: block;outline: none}
+input:focus{
+    box-shadow: 0 0 10px #999;
+}
